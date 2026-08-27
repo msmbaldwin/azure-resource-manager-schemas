@@ -1058,6 +1058,7 @@ const autoGenList: AutoGenConfig[] = [
     {
         basePath: 'providerhub/resource-manager',
         namespace: 'Microsoft.ProviderHub',
+        disabledForAutogen: true,
         postProcessor: providerHubPostProcessor
     },
     {
